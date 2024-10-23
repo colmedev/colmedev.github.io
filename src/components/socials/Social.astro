@@ -1,0 +1,60 @@
+---
+import { Icon } from 'astro-icon/components'
+import { socialItem } from './data'
+---
+
+<aside class="socials">
+  <nav>
+    {
+      socialItem.map(({ title, url, label, icon }) => (
+        <a
+          href={url}
+          title={title}
+          aria-label={label}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon name={icon} size={32} />
+        </a>
+      ))
+    }
+  </nav>
+</aside>
+
+<style>
+  .socials {
+    display: none;
+
+    @media (width >= 1200px) {
+      display: initial;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      translate: 46px;
+
+      & nav {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+
+        &::after {
+          content: '';
+          background-color: var(--text-color);
+          width: 1px;
+          height: 127px;
+          margin-inline: auto;
+        }
+
+        & a {
+          color: var(--color-text);
+          text-decoration: none;
+          transition: var(--transition-text);
+
+          &:hover {
+            color: var(--text-description-color);
+          }
+        }
+      }
+    }
+  }
+</style>
