@@ -12,18 +12,18 @@ interface Props {
   techs: string[]
   repo: string
   repoLabel: string
-  commits: string
+  view: string
 }
 
-const { src, alt, title, description, techs, repo, repoLabel, commits } =
+const { src, alt, title, description, techs, repo, repoLabel, view } =
   Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/images/contributions/*.{jpeg,jpg,png}'
+  '/src/images/contributions/*.{jpeg,jpg,png,webp}'
 )
 if (!images[src])
   throw new Error(
-    `"${src}" no existe en: "/src/images/contributions/*.{jpeg,jpg,png}"`
+    `"${src}" no existe en: "/src/images/contributions/*.{jpeg,jpg,png,webp}"`
   )
 ---
 
@@ -63,9 +63,9 @@ if (!images[src])
       <Icon name="github" size={16} />
       {repoLabel}
     </a>
-    <a href={commits}>
+    <a href={view}>
       <Icon name="link" size={16} />
-      Commits
+      Demo
     </a>
   </div>
 </section>
