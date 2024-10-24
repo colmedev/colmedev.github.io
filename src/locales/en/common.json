@@ -1,6 +1,6 @@
 {
   "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "description": "Web Frontend Developer from Carabobo, Venezuela. Specialist in HTML5, CSS5, JavaScript ES6+.",
   "navbar": [
     {
       "label": "Home",
@@ -22,25 +22,19 @@
   "hero": {
     "job_availability": "Available for work!",
     "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "job_title": "<strong>Web Frontend Developer</strong> from Carabobo, Venezuela",
+    "description": "Specialist in HTML5, CSS5, JavaScript ES6+.",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["Freelance"],
       "jobs_description": [
         {
           "title": "Web Frontend Developer",
           "time": ["Dec 2021"],
           "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
-        },
-        {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
           "list": ["Design of websites", "Optimization of websites"]
         }
       ]
@@ -50,16 +44,8 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
-      },
-      {
         "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
+        "description": "Together with a community of programmers from many parts of Latin America. I was part of the development of a website that is the portfolio of a girl named Ana Rangel who is a UX designer and Streamer.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
         "code": "Code",
@@ -87,44 +73,34 @@
     "contributions": [
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
+        "alt": "Js Conf Chile 2024",
+        "title": "Js Conf Chile 2024",
+        "description": "Along with the UxCorpAnaRangel a growing community, I collaborated in the creation of this website for the Js Conf Chile.",
+        "techs": ["HTML", "CSS", "JavaScript"],
+        "repo": "https://github.com/UXCorpRangel/js-conf-cl-2024",
         "repo_label": "Repository",
-        "commits": "#"
+        "view": "https://jsconf.cl/"
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
+        "description": "This project was also done with the same UxCorpAnaRangel community, I also collaborated in the creation of the official UxCorpAnaRangel website.",
+        "techs": ["HTML", "CSS", "JavaScript"],
+        "repo": "https://github.com/UXCorpRangel/uxcorprangel.github.io",
         "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "view": "https://uxcorprangel.github.io/"
       }
     ]
   },
   "about": {
     "title": "About me",
     "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "description": "Front-end developer and Systems Engineering student with great interest in technology and collaboration in open source projects. My expertise is in JavaScript, HTML, CSS, React and TypeScript. Although I am relatively new to the industry, my enthusiasm and dedication drive me to constantly learn and grow. I am always open to new opportunities."
   },
   "contact": {
     "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "subtitle": "I can be part of your team"
   },
   "footer": {
     "designed": {
@@ -134,6 +110,11 @@
     "developed": {
       "developed_with": "Made with",
       "developed_by": "by"
-    }
+    },
+    "implemented": {
+      "implemented_title": "implemented",
+      "implemented_by": "by"
+    },
+    "open_source": "Open source code"
   }
 }
