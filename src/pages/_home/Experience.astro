@@ -35,19 +35,10 @@ const normalizeTitle = title
     </div>
     <div class="jobs-descriptions">
       {
-        jobsDescription.map(({ title, time, description, list }, index) => (
+        jobsDescription.map(({ title, description, list }, index) => (
           <div class:list={['description tabcontent', { active: index === 0 }]}>
             <h3>{title}</h3>
-            <div class="job-time">
-              {time.map((time, index) => (
-                <>
-                  <time class="headline-4" datetime={time}>
-                    {time}
-                  </time>
-                  {index % 2 === 0 && <span>—</span>}
-                </>
-              ))}
-              {time.length <= 1 && <span class="badge">Actual</span>}
+             <span class="badge">Actual</span>
             </div>
             <p>{description}</p>
             <ul>
@@ -55,7 +46,6 @@ const normalizeTitle = title
                 <li>{item}</li>
               ))}
             </ul>
-          </div>
         ))
       }
     </div>

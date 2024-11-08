@@ -55,9 +55,15 @@ const year = new Date().getFullYear()
     <span>
       {implementedTitle}
       {implementedBy}
-      <p>colmedev</p>
+      <a
+        href="https://github.com/colmedev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        colmedev
+      </a>
     </span>
-    <p>{t('footer.open_source')}</p>
+    {t('footer.open_source')}
   </p>
 </footer>
 
@@ -80,13 +86,13 @@ const year = new Date().getFullYear()
       content: '|';
       display: inline-block;
       translate: 0 -1px;
-      margin-right: 4px;
     }
 
     & a {
       color: var(--text-color);
       text-decoration: none;
       transition: var(--transition-text);
+      cursor: pointer;
 
       @media (any-hover: hover) {
         &:hover {
