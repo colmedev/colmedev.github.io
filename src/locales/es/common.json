@@ -21,10 +21,12 @@
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Miguel Colmenarez!",
+    "title": "¡Hola soy",
+    "name": " Miguel Colmenarez!",
     "job_title": "<strong>Desarrollador Web Frontend</strong> de Carabobo, Venezuela.",
     "description": "Especialista en HTML5, CSS5, JavaScript ES6+.",
-    "cta": "Contactame"
+    "resume": "src/docs/CV-Miguel-Colmenarez.pdf",
+    "resume_label": "Ver CV"
   },
   "experience": {
     "title": "Experiencia laboral",
@@ -33,7 +35,6 @@
       "jobs_description": [
         {
           "title": "Desarrollador Web Frontend",
-          "time": ["Oct 2024"],
           "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
           "list": ["Diseño de sitios web", "Optimización de sitios web"]
         }
@@ -50,21 +51,6 @@
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
         "code": "https://github.com/AnaRangel/anarangel.github.io",
         "preview": "https://anarangel.github.io/"
-      },
-      {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Código",
-        "preview": "Vista previa"
       }
     ]
   },
@@ -72,20 +58,20 @@
     "title": "Contribuciones",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "src": "/src/images/contributions/og-jsconfcl.jpg",
         "alt": "Js Conf Chile 2024",
         "title": "Js Conf Chile 2024",
-        "description": "Junto con la UxCorpAnaRangel una comunidad en crecimiento, Colaboré en la creación de este sitio web para la Js Conf Chile",
+        "description": "Colaboré en la creación de este sitio web para la Js Conf Chile con la comunidad UxCorpRangel",
         "techs": ["HTML", "CSS", "JavaScript"],
         "repo": "https://github.com/UXCorpRangel/js-conf-cl-2024",
         "repo_label": "Repositorio",
         "view": "https://jsconf.cl/"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "Este proyecto también fue hecho con la misma comunidad de UxCorpAnaRangel, también colaboré en la creación de la pagina oficial de la UxCorpAnaRangel.",
+        "src": "/src/images/contributions/og-uxcorp.png",
+        "alt": "Portafolio Ana Rangel",
+        "title": "Portafolio Ana Rangel",
+        "description": "También con está comunidad colaboré en la creación de la pagina oficial de la UxCorpAnaRangel.",
         "techs": ["HTML", "CSS", "JavaScript"],
         "repo": "https://github.com/UXCorpRangel/uxcorprangel.github.io",
         "repo_label": "Repositorio",
@@ -95,8 +81,8 @@
   },
   "about": {
     "title": "Sobre mí",
-    "subtitle": "I am a Front end developer eager to learn about this industry.",
-    "description": "Desarrollador front-end y estudiante de Ingeniería de Sistemas con gran interés por la tecnología y la colaboración en proyectos de código abierto. Mi experiencia es en JavaScript, HTML, CSS, React y TypeScript. Aunque soy relativamente nuevo en la industria, mi entusiasmo y dedicación me impulsan a aprender y crecer constantemente. Siempre estoy abierto a nuevas oportunidades."
+    "subtitle": "Soy un desarrollador Front end entusiasta de la tecnología.",
+    "description": "Desarrollador front-end y estudiante de Ingeniería de Sistemas con gran interés por la tecnología y la colaboración en proyectos de código abierto. Mi experiencia es en JavaScript, HTML, CSS, React y TypeScript. Mi entusiasmo y dedicación me impulsan a aprender y crecer constantemente. Siempre estoy abierto a nuevas oportunidades."
   },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",

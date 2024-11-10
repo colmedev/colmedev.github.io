@@ -21,10 +21,12 @@
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
+    "title": "Hello I'm",
+    "name": " Miguel Colmenarez!",
     "job_title": "<strong>Web Frontend Developer</strong> from Carabobo, Venezuela",
     "description": "Specialist in HTML5, CSS5, JavaScript ES6+.",
-    "cta": "Contact me"
+    "resume": "/src/docs/Miguel-Colmenarez-CV.pdf",
+    "resume_label": "See Resume"
   },
   "experience": {
     "title": "Work Experience",
@@ -33,7 +35,6 @@
       "jobs_description": [
         {
           "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
           "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
           "list": ["Design of websites", "Optimization of websites"]
         }
@@ -50,21 +51,6 @@
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
         "code": "Code",
         "preview": "Preview"
-      },
-      {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Code",
-        "preview": "Preview"
       }
     ]
   },
@@ -72,31 +58,31 @@
     "title": "Contributions",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "src": "/src/images/contributions/og-jsconfcl.jpg",
         "alt": "Js Conf Chile 2024",
         "title": "Js Conf Chile 2024",
-        "description": "Along with the UxCorpAnaRangel a growing community, I collaborated in the creation of this website for the Js Conf Chile.",
+        "description": "Junto con la UxCorpAnaRangel una comunidad en crecimiento, Colaboré en la creación de este sitio web para la Js Conf Chile",
         "techs": ["HTML", "CSS", "JavaScript"],
         "repo": "https://github.com/UXCorpRangel/js-conf-cl-2024",
-        "repo_label": "Repository",
+        "repo_label": "Repositorio",
         "view": "https://jsconf.cl/"
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "This project was also done with the same UxCorpAnaRangel community, I also collaborated in the creation of the official UxCorpAnaRangel website.",
+        "src": "/src/images/contributions/og-uxcorp.png",
+        "alt": "Portafolio Ana Rangel",
+        "title": "Portafolio Ana Rangel",
+        "description": "También colaboré en la creación de la pagina oficial de la UxCorpAnaRangel.",
         "techs": ["HTML", "CSS", "JavaScript"],
         "repo": "https://github.com/UXCorpRangel/uxcorprangel.github.io",
-        "repo_label": "Repository",
+        "repo_label": "Repositorio",
         "view": "https://uxcorprangel.github.io/"
       }
     ]
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "Front-end developer and Systems Engineering student with great interest in technology and collaboration in open source projects. My expertise is in JavaScript, HTML, CSS, React and TypeScript. Although I am relatively new to the industry, my enthusiasm and dedication drive me to constantly learn and grow. I am always open to new opportunities."
+    "subtitle": "I am a Front end developer with an enthusiasm for technology.",
+    "description": "Front-end developer and Systems Engineering student with great interest in technology and collaboration on open source projects. My expertise is in JavaScript, HTML, CSS, React and TypeScript. My enthusiasm and dedication drive me to constantly learn and grow. I am always open to new opportunities."
   },
   "contact": {
     "title": "Ready to make your dreams come true?",
