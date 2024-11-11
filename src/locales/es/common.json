@@ -49,8 +49,8 @@
         "description": "En conjunto con una comunidad de programadores de muchas partes de latinoamerica. Formé parte del desarrollo de sitio web que es el portafolio de una chica llamada Ana Rangel que es diseñadora UX y Streamer.",
         "image": "/src/images/projects/ana-rangel-portafolio.jpg",
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "https://github.com/AnaRangel/anarangel.github.io",
-        "preview": "https://anarangel.github.io/"
+        "code": "Código",
+        "preview": "Vista previa"
       }
     ]
   },
