@@ -1,28 +1,41 @@
----
-interface Information {
-  title: string
-  description: string
-}
+<!-- HTML Meta Tags -->
+<title>Desarrollador Web Frontend - Miguel Colmenarez</title>
+<meta
+  name="description"
+  content="Desarrollador Web Frontend de Carabobo, Venezuela. Especialista en HTML5, CSS5, JavaScript ES6+"
+/>
 
-interface Props {
-  information: Information
-  image: string
-}
-const { information, image } = Astro.props
-const { title, description } = information
----
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://colmedev.github.io/portafolio/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="Desarrollador Web Frontend - Miguel Colmenarez"
+/>
+<meta
+  property="og:description"
+  content="Desarrollador Web Frontend de Carabobo, Venezuela. Especialista en HTML5, CSS5, JavaScript ES6+"
+/>
+<meta
+  property="og:image"
+  content="https://opengraph.b-cdn.net/production/images/1762ce23-998f-4fcf-a715-ea2d0373c910.png?token=SSeuT3kFq30e3vBCemaavSEDpfgTfZI9n_h0X0jeaXc&height=512&width=839&expires=33267370301"
+/>
 
-<meta content={title} property="og:title" />
-<meta content={description} property="og:description" />
-<meta content={image} property="og:image" />
-<meta content={title} property="og:image:alt" />
-<meta property="og:image:type" content="image/png" />
-<meta content="website" property="og:type" />
-<meta content="Portfolio Felix Rangel" property="og:site_name" />
-<meta content={Astro.url.href} property="og:url" />
-
+<!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={image} />
-<meta name="twitter:image:alt" content={title} />
+<meta property="twitter:domain" content="colmedev.github.io" />
+<meta property="twitter:url" content="https://colmedev.github.io/portafolio/" />
+<meta
+  name="twitter:title"
+  content="Desarrollador Web Frontend - Miguel Colmenarez"
+/>
+<meta
+  name="twitter:description"
+  content="Desarrollador Web Frontend de Carabobo, Venezuela. Especialista en HTML5, CSS5, JavaScript ES6+"
+/>
+<meta
+  name="twitter:image"
+  content="https://opengraph.b-cdn.net/production/images/1762ce23-998f-4fcf-a715-ea2d0373c910.png?token=SSeuT3kFq30e3vBCemaavSEDpfgTfZI9n_h0X0jeaXc&height=512&width=839&expires=33267370301"
+/>
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
