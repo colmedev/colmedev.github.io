@@ -12,7 +12,7 @@ const { title, subtitle } = t('contact', {
   <h2 class="headline-1">{title}</h2>
   <h3 class="headline-2">{subtitle}</h3>
   <div class="buttons-container">
-    <Button class="filled" href="#">{t('hero.resume_label')}</Button>
+    <Button class="filled" id="download-cv">{t('hero.resume_label')}</Button>
     <Button href="https://www.linkedin.com/in/colmedev">
       <Icon name="linkedin" size={24} />
       <span>LinkedIn</span>
@@ -94,4 +94,27 @@ const { title, subtitle } = t('contact', {
     // Mensaje de error si no se encuentra el canvas
     console.error("No se encontró el elemento 'canvas'")
   }
+
+  async function downloadFile(rawHref: string, name: string): Promise<void> {
+    const result = await fetch(rawHref, { method: 'get' })
+    const blob = await result.blob()
+    const aElement = document.createElement('a')
+    aElement.setAttribute('download', name)
+    const href = URL.createObjectURL(blob)
+    aElement.href = href
+    aElement.setAttribute('target', '_blank')
+    aElement.click()
+    URL.revokeObjectURL(href)
+  }
+
+  function downloadCV(): void {
+    downloadFile(
+      `https://raw.githubusercontent.com/colmedev/colmedev.github.io/refs/heads/master/src/docs/Miguel-Colmenarez-CV.pdf`,
+      'colmedev.pdf'
+    )
+  }
+
+  const downloadBtn = document.querySelector<HTMLButtonElement>('#download-cv')
+
+  downloadBtn?.addEventListener('click', downloadCV)
 </script>
