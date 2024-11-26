@@ -10,7 +10,6 @@ const {
   title,
   job_title: jobTitle,
   description,
-  resume: Resume,
   resume_label: ResumeLabel
 } = t('hero', {
   returnObjects: true
@@ -29,7 +28,7 @@ const {
       <p>{description}</p>
     </section>
     <section class="button-container">
-      <Button class="filled" href={Resume}>{ResumeLabel}</Button>
+      <Button class="filled" id="download-cv">{ResumeLabel}</Button>
       <Button href="https://www.linkedin.com/in/colmedev">
         <Icon name="linkedin" size={24} />
         <span>LinkedIn</span>
@@ -165,8 +164,32 @@ const {
 </style>
 
 <script>
+  import { t } from 'i18n:astro'
   import { StarField } from '@scripts/starfield'
 
   const canvas = document.querySelector('#stars') as HTMLCanvasElement
   new StarField(canvas)
+
+  async function downloadFile(rawHref: string, name: string): Promise<void> {
+    const result = await fetch(rawHref, { method: 'get' })
+    const blob = await result.blob()
+    const aElement = document.createElement('a')
+    aElement.setAttribute('download', name)
+    const href = URL.createObjectURL(blob)
+    aElement.href = href
+    aElement.setAttribute('target', '_blank')
+    aElement.click()
+    URL.revokeObjectURL(href)
+  }
+
+  function downloadCV(): void {
+    downloadFile(
+      `https://raw.githubusercontent.com/colmedev/colmedev.github.io/refs/heads/master/src/docs/Miguel-Colmenarez-CV.pdf`,
+      'colmedev.pdf'
+    )
+  }
+
+  const downloadBtn = document.querySelector<HTMLButtonElement>('#download-cv')
+
+  downloadBtn?.addEventListener('click', downloadCV)
 </script>
