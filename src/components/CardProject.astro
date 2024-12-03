@@ -27,7 +27,7 @@ if (!images[src])
 
 <section class="card-project">
   <div>
-    <a href="#">
+    <a href={preview}>
       <Picture
         src={images[src]()}
         alt={alt}
@@ -39,7 +39,7 @@ if (!images[src])
     </a>
   </div>
   <div class="description">
-    <h3><a href="#">{title}</a></h3>
+    <h3><a href={preview}>{title}</a></h3>
     <div class="badges">
       {
         techs.map((tech) => {
